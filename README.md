@@ -3,6 +3,7 @@
 # textasaurus
 A simple library for extracting text from any PDF in Python x AWS.
 
-## Architecture
+## **Architecture**
+![cloud architecture](docs/texasaurus-arch.png)
 
 ## Use Cases
