@@ -3,7 +3,7 @@ from pathlib import Path
 
 long_desc = Path('README.md').read_text()
 
-setuptools.setup(
+setup(
     name="textasaurus", # Replace with your own username
     version="0.1.0",
     author="Matt Eads",
@@ -18,6 +18,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    entry_points={'console_scripts': ['textasaurus=textasaurus.__main__:textasaurus']}
-    python_requires='>=3.6',
+    entry_points={'console_scripts': ['textasaurus=textasaurus.__main__:textasaurus']},
+    python_requires='>=3.6'
 )
