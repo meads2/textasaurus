@@ -32,9 +32,15 @@ textasaurus your_files/
 **Import in Python**
 
 ```python
-textasaurus init #Only needs to be run 1x Time to create infrastructure
-textasaurus --dir '../data/my_file.pdf
+from textasaurus import Textasaurus#Only needs to be run 1x Time to create infrastructure
+dino = Textasaurus('YOUR_API_KEY') 
+dino.analyze('my_file.pdf')
+```
 
+```python
+from textasaurus import Textasaurus#Only needs to be run 1x Time to create infrastructure
+dino = Textasaurus('YOUR_API_KEY') 
+dino.analyze('my_files/')
 ```
 
 ## Use Cases
