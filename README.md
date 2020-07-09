@@ -13,7 +13,7 @@ pip install textasaurus
 ```
 
 ### 2. Get API Key
-Create a ```.env``` file in the root of your project or export the following as enviornment variables
+Get an API key from the textasaurus API
 ```bash
 TEXTASAURUS_API_KEY=Your_API_KEY
 ```
@@ -32,13 +32,13 @@ textasaurus your_files/
 **Import in Python**
 
 ```python
-from textasaurus import Textasaurus#Only needs to be run 1x Time to create infrastructure
+from textasaurus import Textasaurus
 dino = Textasaurus('YOUR_API_KEY') 
 dino.analyze('my_file.pdf')
 ```
 
 ```python
-from textasaurus import Textasaurus#Only needs to be run 1x Time to create infrastructure
+from textasaurus import Textasaurus
 dino = Textasaurus('YOUR_API_KEY') 
 dino.analyze('my_files/')
 ```
